@@ -1,0 +1,9 @@
+curl 'http://127.0.0.1:3001/create-token' \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.gHR70RJsym-H6-b0ebw5ozTYNztVDvQRS_GjTJ2ZMd4' \
+   --data-binary '{
+    "ectx": {
+      "SENDGRID_USER": "",
+      "SENDGRID_KEY": ""
+    }
+  }'

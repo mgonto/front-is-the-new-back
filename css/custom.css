@@ -415,6 +415,78 @@ article.code-url::before {
   background-image: url("../img/code-url.png");
 }
 
+article.onemore::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/onemore.jpg");
+}
+
+.btn-free {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-property: background-color;
+  -webkit-transition-timing-function: ease;
+  -webkit-user-select: none;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(235, 84, 36);
+  background-image: none;
+  background-origin: padding-box;
+  background-size: auto;
+  border-bottom-color: rgb(22, 33, 77);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(22, 33, 77);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(22, 33, 77);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(22, 33, 77);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: proxima-nova, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  height: 52px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 270.859375px;
+}
+
 
 
 
