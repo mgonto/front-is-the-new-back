@@ -1,8 +1,8 @@
 ## Talk Starter
 
-This are the slides for the talk WHAT TALK?
+This are the slides for the talk "The Front is the new Back"
 
-You can see them at http://mgonto.github.io/talk-starter
+You can see them at [http://mgonto.github.io/front-is-the-new-back](http://mgonto.github.io/front-is-the-new-back)
 
 ## Thanks
 
