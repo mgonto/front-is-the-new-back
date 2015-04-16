@@ -1,0 +1,444 @@
+.margin-top {
+  margin-top: 20px !important;
+}
+
+.code,
+.livecode {
+  background-color: #142444;
+}
+
+.full-width-img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: #F00;
+}
+.only-image * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+article section.white {
+  background-color: #FFF;
+  color: #111;
+}
+
+.livecode input[type="text"] {
+  background: #142444;
+  border: none;
+  border-bottom: 2px solid #000000;
+  color: #F00;
+  width: 80px;
+  margin: 0 10px;
+}
+
+/*.livecode input[type="button"] {
+  background: #FFF;
+  border: none;
+  color: #142444;
+  border-radius: 2px;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+
+.livecode input[type="button"]:hover {
+  background: #DDD;
+}*/
+
+.livecode input:focus {
+  outline: none;
+}
+
+.livecode .hello .result {
+  color: #F80;
+}
+
+.to-the-resque .content {
+  width: 600px;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  width: 800px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.long :not(pre) > code[class*="language-"],
+.long pre[class*="language-"] {
+  width: 960px;
+}
+
+.line-highlight {
+  background: rgba(216, 223, 65, 0.13);
+}
+
+pre[data-line] {
+  padding: inherit;
+}
+
+.link a {
+  display: inline-block;
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+/* --- buttons ---- */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  padding:1rem 2rem;
+  background:transparent;
+  border:3px solid #fff;
+  margin:1rem 0;
+  border-radius:4px;
+  color:#fff;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:1rem;
+}
+
+/* --- big labels ---- */
+
+.big-label {
+  font-size:1.5rem;
+}
+
+/* --- markup stuff ---- */
+
+pre {
+  position:relative;
+}
+
+pre.language-markup::before,
+pre.language-javascript::before {
+  width:100px;
+  height:40px;
+  line-height:40px;
+  position:absolute;
+  bottom:0;
+  right:0;
+  text-align:center;
+  font-size:1rem;
+  color:#fff;
+  background:#d35400;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  display:block;
+  content:'';
+  border-bottom-right-radius:6px;
+}
+
+pre.language-markup::before {
+  content:'HTML';
+}
+
+pre.language-javascript::before {
+  content:'JS';
+}
+/* ---- backgrounds ---- */
+article.start::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/public.gif");
+}
+
+article.developer::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.2);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.2);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.2);
+  background-image: url("../img/bartnerd.png");
+  background-position: top;
+}
+
+article.auth0::before {
+  -webkit-filter: blur(5.5px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(5.5px) grayscale(0.3) brightness(0.4);
+  filter: blur(5.5px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/a0.png");
+}
+
+article.beta::before {
+  -webkit-filter: blur(5.5px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(5.5px) grayscale(0.3) brightness(0.4);
+  filter: blur(5.5px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/beta.jpg");
+}
+
+article.js::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/js.png");
+}
+
+article.programming::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/programming.gif");
+}
+
+article.programming, article.safari, article.bobby, article.white {
+  background-color: white;
+  opacity: 0.95;
+}
+
+article.advocate::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/advocate.jpg");
+}
+
+article.smoke::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/smoke.gif");
+}
+
+article.old-web::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: 80%;
+  background-image: url("../img/SpaceJam.gif");
+}
+
+article.current-web::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: 80%;
+  background-image: url("../img/Auth0.gif");
+}
+
+article.lost::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/lost.gif");
+}
+
+article.persian-cat::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/persian.jpg");
+}
+
+article.not-cool::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/notcool.gif");
+}
+
+
+article.chuck::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/chuck.jpg");
+}
+
+
+article.options::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background-image: url("../img/options.jpg");
+}
+
+article.demo::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background: green;
+}
+
+article.sub-subject-change::before {
+  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
+  background: gray;
+}
+
+
+
+
+
+article.flashy-bg::before {
+ -webkit-filter: blur(3.25px) grayscale(0.3) brightness(0.6);
+  -moz-filter: blur(3.25px) grayscale(0.3) brightness(0.6);
+  filter: blur(3.25px) grayscale(0.3) brightness(0.6);
+  background-image: url("../img/flashy.gif");
+}
+
+article.mind-blown::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/mind-blown.gif");
+}
+
+article.mind-blown::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/mind-blown.gif");
+}
+
+article.time-ago::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/timeago.gif");
+}
+
+article.waiting::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/waiting.gif");
+}
+
+article.client-server::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/client-server.png");
+}
+
+article.client-server-inside::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/client-server-inside.png");
+}
+
+article.client-backendless::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/client-backendless.png");
+}
+
+article.eureka::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/eureka.gif");
+}
+
+article.yay::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-position: top;
+  background-image: url("../img/yay.gif");
+}
+
+article.thinking::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-position: top;
+  background-image: url("../img/thinking.gif");
+}
+
+article.not-cool::before {
+  -webkit-filter: blur(3.25px) grayscale(0.5) brightness(0.2);
+  -moz-filter: blur(3.25px) grayscale(0.5) brightness(0.2);
+  filter: blur(3.25px) grayscale(0.5) brightness(0.2);
+  background-image: url("../img/not-cool.jpg");
+}
+
+article.not-cool-an::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-position: top;
+  background-image: url("../img/not-cool-an.gif");
+}
+
+article.only-server::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/only-server.png");
+}
+
+article.webtask::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/extract.png");
+}
+
+article.extract::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/webtask.png");
+}
+
+article.new-way::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/new-way.png");
+}
+
+article.send-secret::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/send-secrets.png");
+}
+
+article.webtask-jwt::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/webtask-jwt.png");
+}
+
+article.code-url::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/code-url.png");
+}
+
+
+
+
+.profile {
+  margin: 0 auto;
+  width: 300px;
+}
+.profile .rounded-image {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #000;
+  border-radius: 100%;
+  margin-right: 10px;
+  box-shadow: 0px 0px 0px 2px #FFF;
+}
+.profile .rounded-image img {
+  margin: 0;
+  width: 100%;
+}
+.profile h3 {
+  display: inline-block;
+  text-transform: lowercase;
+  font-size: 2em;
+}
