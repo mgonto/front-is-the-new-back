@@ -505,6 +505,21 @@ article.bitcoin::before {
   background-image: url("../img/bitcoin.png");
 }
 
+article.fotolog::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/fotolog.jpg");
+}
+
+article.world::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/world.gif");
+}
+
 .btn-free {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
