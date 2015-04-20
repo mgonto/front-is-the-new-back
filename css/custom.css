@@ -415,11 +415,94 @@ article.code-url::before {
   background-image: url("../img/code-url.png");
 }
 
+article.wakeup::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/wakeup.gif");
+}
+
+article.coffee::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/coffee.gif");
+}
+
+article.easy::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-position: top;
+  background-image: url("../img/easy.gif");
+}
+
+article.stop::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/stop.gif");
+}
+
+article.kidding::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/kidding.gif");
+}
+
+article.kidding2::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/kidding2.gif");
+}
+
+article.node-on-client::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/node-on-client.png");
+}
+
+article.node-on-client1::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/node-on-client1.png");
+}
+
+article.node-on-client2::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/node-on-client2.png");
+}
+
+
 article.onemore::before {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
   background-image: url("../img/onemore.jpg");
+}
+
+article.the-end::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/the-end.gif");
+}
+
+article.bitcoin::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/bitcoin.png");
 }
 
 .btn-free {

@@ -8,7 +8,7 @@ return function (context, cb) {
       'api_key': context.SENDGRID_KEY,
       'to': context.to,
       'subject': 'Hello from WebTask sample!',
-      'from': 'samples@webtask.io',
+      'from': 'martin@gon.to',
       'text': 'Test email from sample'
     }
   }, cb);

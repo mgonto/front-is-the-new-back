@@ -48,6 +48,7 @@
             dataType: 'JSON'
           }).then(function(data) {
             alert("Email was sent");
+            console.log("Email sent", arguments);
           }, function(error) {
             alert("Error sending email");
             console.log("Error sending email", error.responseText, arguments);

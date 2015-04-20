@@ -451,8 +451,8 @@ section .firefoxos {
 }
 
 
-.bespoke-bullet.bespoke-bullet-last-active {
-  display: block;
+.bespoke-bullet.bespoke-bullet-active {
+  display: inline;
 }
 pre[class*="language-"] {
   line-height: 1.5em

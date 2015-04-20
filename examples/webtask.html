@@ -1,0 +1,29 @@
+<html>
+<head>
+
+    <script id="hello" type="text/nodejs">
+        // This is Node.js
+        return function (context, cb) {
+            cb(null, 'Node.js ' + process.version + ' meets '
+                + context.data);
+        }
+    </script>
+
+    <script
+      src="https://cdn.auth0.com/webtasks/js/webtaskify.js">
+    </script>
+</head>
+<body>
+    <h1>Script Node.js in the browser</h1>
+    <pre id="result">Node.js 0.12.0 meets the browser</pre>
+
+    <script>
+        var hello = webtaskify('hello');
+        hello({data: 'the browser'}, function (error, result) {
+            document.getElementById('result').innerHTML =
+                error || result;
+        });
+    </script>
+
+</body>
+</html>
