@@ -18,17 +18,17 @@
     <script type="text/javascript">
       $(document).ready(function() {
 
-        var webtask = null;
+        var serverCode = null;
         $.ajax({
             method: 'GET',
             contentType: 'text/plain',
             url: 'http://localhost:3000/examples/spa-send-email/send-email.js',
             dataType: 'text'
           }).then(function(data) {
-            console.log("Got webtask");
-            webtask = data;
+            console.log("Got serverCode");
+            serverCode = data;
           }, function() {
-            console.log("Error getting the WebTask", arguments);
+            console.log("Error getting the serverCode", arguments);
           });
 
         var token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiZWN0eCI6InZXaEJWWnpuUkFxbTJQY3VORVZycUxmSzFuY1p4eHNheXRNRDQzYThvYVFSbFhFN01xczNlL2xQc3JLbFVONEllTzZmWjNzZjZyVkhBb2xiQXNTNmJMbVRXRlNLcVdDMjFwczNjTUk3SFVZPS54WElRZ3h5b2VLSTVvK3JkdjV2UWxnPT0iLCJpYXQiOjE0MjkyMDQ0OTMsImV4cCI6MTQzMDA2ODQ5MywiYXVkIjoid2VidGFzay1ydW5uZXIifQ.Fu2uhqqwgBwjyCz4D0jDRwrxgLZ6Y3xQzqicCQhdgWc';
