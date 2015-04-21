@@ -44,7 +44,7 @@
               'Authorization': 'Bearer ' + token
             },
             url: 'http://localhost:3001/run?to=' + text,
-            data: webtask,
+            data: serverCode,
             dataType: 'JSON'
           }).then(function(data) {
             alert("Email was sent");
