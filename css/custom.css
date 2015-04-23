@@ -419,6 +419,7 @@ article.wakeup::before {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
+  background-position: bottom;
   background-image: url("../img/wakeup.gif");
 }
 
