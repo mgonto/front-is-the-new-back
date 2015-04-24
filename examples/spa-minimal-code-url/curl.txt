@@ -4,3 +4,11 @@ curl 'http://127.0.0.1:3001/create-token' \
    --data-binary '{
     "code_url": "https://gist.githubusercontent.com/mgonto/6e610ff428f68f89803f/raw/9bd47fc039bab95b5f9a9c6d7096a15316c231f3/hello.js"
   }'
+
+
+curl 'http://127.0.0.1:3001/create-token' \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.gHR70RJsym-H6-b0ebw5ozTYNztVDvQRS_GjTJ2ZMd4' \
+   --data-binary '{
+    "code_url": "http://localhost:3000/examples/spa-minimal-code-url/hello.js"
+  }'
